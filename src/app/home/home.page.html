@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-button expland="full" (click)="scheduleNotification()">Schedule Notification</ion-button>
+
+  <ion-input [(ngModel)]="myText"></ion-input>
+  <ion-button expand="full" (click)="copyText()" >Copy to clipboard</ion-button>
+
+</ion-content>

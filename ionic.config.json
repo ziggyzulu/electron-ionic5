@@ -1,0 +1,7 @@
+{
+  "name": "ionic5-electron",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
